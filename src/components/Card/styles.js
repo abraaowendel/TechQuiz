@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Item = styled.div`
-    height: 80px;
+    height: 65px;
     border: 1px solid transparent;
     background-color: #161B22;
     border-radius: 15px;
@@ -17,8 +17,8 @@ export const Item = styled.div`
 export const Title = styled.div`
     background-color: #21262C;
     border: 1px solid #656868;
-    min-width: 45px;
-    height: 45px;
+    min-width: 35px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,6 +1,6 @@
-import { useReducer } from "react"
 
 export const QuizInitialState = {
+    current: 0,
     hits: 0,
     mistakes: 0
 }
@@ -11,7 +11,8 @@ export const QuizReducer = (state, action) => {
             return {...state, hits: state.hits + 1}
         case "MISTAKE":
             return {...state, mistakes: state.mistakes + 1}
-        default:
-            break;
+        case "INCREMENT":
+            return {...state, current: state.current + 1}
     }
+    return state
 }
