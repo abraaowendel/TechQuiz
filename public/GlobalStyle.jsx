@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: 'Inter', sans-serif;
+        user-select: none;
     }
     body,html{
         overflow-x: hidden;

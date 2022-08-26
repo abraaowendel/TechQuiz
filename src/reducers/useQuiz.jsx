@@ -13,6 +13,8 @@ export const QuizReducer = (state, action) => {
             return {...state, mistakes: state.mistakes + 1}
         case "INCREMENT":
             return {...state, current: state.current + 1}
+        case "RESTART":
+            return {...state, current: 0, hits: 0, mistakes: 0}
     }
     return state
 }

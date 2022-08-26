@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+
+
 export const Container = styled.div`
     background-color: #0D1117;
     min-height: 100vh;
@@ -16,7 +18,6 @@ export const Header = styled.div `
 export const Logo = styled.div `
     font-size: 2em;
     color: #fff;
-    font-family: 'Lucida Sans', sans-serif;
 `
 export const Main = styled.div `
     max-width: 800px;
@@ -39,4 +40,10 @@ export const Title = styled.h1 `
     font-size: 1.4em;
     margin: 30px 0;
     text-align: start;
+    user-select: none;
 `
+
+
+
+
+
